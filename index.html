@@ -2,24 +2,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Animal Card Creator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> header</h1>
-    <div id="red"> 
-        <p id="text"> this is a big black box</p>
-        <ul>
-          <li class= "point">1</li>  
-          <li class= "point" id="pointTwo">2</li>
-          <li class= "point">3</li>
-        </ul>
-        <button class="btn">Click Me</button>
+    <div class="container">
+        <h1>Animal Card Generator</h1>
+        <form id="animalForm">
+            <input type="text" id="animalName" placeholder="Animal Name" required>
+            <input type="text" id="animalDescription" placeholder="Description" required>
+            <input type="url" id="animalPhoto" placeholder="Photo URL" required>
+            <button type="submit">Create Card</button>
+        </form>
+        <div id="cardContainer"></div>
     </div>
-    <form action="".class="form">
-        <input type="text" />
-        <button type="button">Submit</button>
-    </form>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
